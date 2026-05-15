@@ -5,7 +5,7 @@ pipeline {
 
         stage('Clone Repository') {
             steps {
-                git url: 'https://github.com/YOUR_USERNAME/devops-security-dashboard.git',
+                git 'https://github.com/FirdousHani/devops-security-dashboard.git',
                     branch: 'main'
             }
         }
